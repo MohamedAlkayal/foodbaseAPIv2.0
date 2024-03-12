@@ -1,5 +1,5 @@
 require("dotenv").config;
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const User = require("../model/userModel");
 const CustomError = require("../utility/errorObject");
 const updateUserValidator = require("../schema/updateUserValidator");
